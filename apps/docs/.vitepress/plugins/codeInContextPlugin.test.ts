@@ -171,7 +171,7 @@ describe('codeInContextPlugin', () => {
       Array.from({ length: 2 }).forEach((_, index) => {
         const mockedTokens = [
           {
-            type: index === 0 ? 'fence' : 'paagraph',
+            type: index === 0 ? 'fence' : 'paragraph',
             tag: index === 1 ? 'code' : 'p',
             content: 'code snippet 1',
             url: 'http://example.com',
